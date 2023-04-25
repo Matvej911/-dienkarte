@@ -1,7 +1,6 @@
 # -dienkarte
 dalībnieki:
 Matvejs Aleksejevs 
-Dāvids Jurčenko
 Git Hub: Matvej911
 
 Projekta mērķis bija izveidot web lietotni, kas ļauj restorānam viegli un ātri pievienot, rediģēt ēdienkarti tiešsaistē. 

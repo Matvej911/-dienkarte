@@ -18,10 +18,10 @@ app.get('/create_txt', (req, res) => {
 
   const fileName = (`${req.query.nosaukums}_${req.query.apraksts}`).toLowerCase().replaceAll(" ", "_")
 
-  const fileContent = `-Personālā datora sastāvdaļa-
-Veids: ${req.query.nosaukums}
-Modelis: ${req.query.apraksts}
-Cena: ${req.query.cena} EUR
+  const fileContent = `-"Edienkarte-
+nosaukums: ${req.query.nosaukums}
+apraksts: ${req.query.apraksts}
+cena: ${req.query.cena} EUR
 `
   
 })
